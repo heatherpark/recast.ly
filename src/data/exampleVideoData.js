@@ -33,7 +33,9 @@ window.exampleVideoData = [{
     channelTitle: 'thenewboston',
     liveBroadcastContent: 'none'
   }
-}, {
+},
+
+  {
   kind: 'youtube#searchResult',
   etag: 'abQHWywil_AkNqdqji7_FqiK-u4/tS3xe6KXEJbntCAmn01SmEuSYxg',
   id: {
@@ -65,7 +67,9 @@ window.exampleVideoData = [{
     channelTitle: '',
     liveBroadcastContent: 'none'
   }
-}, {
+}, 
+
+  {
   kind: 'youtube#searchResult',
   etag: 'abQHWywil_AkNqdqji7_FqiK-u4/FZYrgJg7qfkv0yfImJPujBKBmLk',
   id: {
