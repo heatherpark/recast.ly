@@ -17,14 +17,11 @@ class App extends React.Component {
     this.props.search({key: window.YOUTUBE_API_KEY, query: query, max: 5}, (data) => {this.setState({videoData: data, currentVideo: data[0]})});
   }
   onVideoClick(video) {
-    console.log("I've been clicked", video);
     this.setState({
       currentVideo: video
     });
   }
   onSearch(value){
-    console.log(value);
-
     this.setState({
       currentVideo: value
     });
